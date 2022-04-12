@@ -6,4 +6,9 @@ describe("Jugador",()=>{
     it("mostrar cualquier valor ingresado ",()=>{
         expect(ingresaValor("4321")).toEqual("4321");
     });
+    it("mostrar  ",()=>{
+        expect(ingresaValor("4321")).toEqual("4321");
+    });
 });
+
+  

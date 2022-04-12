@@ -1,15 +1,15 @@
-import sumar from "./sumador";
+import ingresaValor from "./TorosVacas";
 
-const first = document.querySelector("#primer-numero");
-const second = document.querySelector("#segundo-numero");
-const form = document.querySelector("#sumar-form");
+const codigo = document.querySelector("#codigo");
+const codigoAdivina = document.querySelector("#codigoAdivina")
+const form = document.querySelector("#torosVacas-form");
 const div = document.querySelector("#resultado-div");
 
 form.addEventListener("submit", (event) => {
   event.preventDefault();
 
-  const firstNumber = Number.parseInt(first.value);
-  const secondNumber = Number.parseInt(second.value);
+  const codigo = Number.parseInt(codigo.value);
+  const codigoAdivina = Number.parseInt(codigoAdivina.value);
 
-  div.innerHTML = "<p>" + sumar(firstNumber, secondNumber) + "</p>";
+  div.innerHTML = "<p>" + ingresaValor(codigo,codigoAdivina) + "</p>";
 });
