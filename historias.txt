@@ -12,3 +12,18 @@ Como: Jugador
     Criterios de confirmación:  
         Si ingreso “1234” se muestra en pantalla “1234”
         Si ingreso vacio, muestra un mensaje de “por favor ingresar un número”.
+
+Como: Jugador 
+    Quiero: Ingresar el codigo de manera oculta
+    Para: no poder ver el codigo
+    Criterios de confirmación:  
+        me muestra el codigo &&&&
+ Como: Jugador 
+    Quiero: ver si tengo una vaca
+    Para: poder ver almenos una vaca
+    Criterios de confirmación:  
+        el dijito uno es vaca
+ como jugador:
+     quiero saber si tengo toro
+     para:saber si tengo almenos un toro
+     criterios la posicion cero es toro            
