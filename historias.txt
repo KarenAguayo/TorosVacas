@@ -1,0 +1,6 @@
+Como: Jugador 
+    Quiero: Ingresar un número de 4 dígitos
+    Para: Ver el número ingresado
+    Criterios de confirmación:  
+        Si ingreso “1234” se muestra en pantalla “1234”
+        Si ingreso vacio, muestra un mensaje de “por favor ingresar un número”.
