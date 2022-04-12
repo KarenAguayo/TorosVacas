@@ -1,6 +1,7 @@
 import ingresaValor from "./TorosVacas"
 import codigoescondido from "./codigoescondido.js";
 import CompararVaca from "./vaca.js";
+import CompararToro from "./toro.js"
 describe("Jugador",()=>{
     it("mostrar el valor ingresado",()=>{
         expect(ingresaValor("1234")).toEqual("1234");
@@ -17,6 +18,9 @@ describe("Jugador",()=>{
       it("Ingresar el codigo adivina para saber si el dijito uno es vaca", () => {
         expect(CompararVaca("1345","1678")).toEqual('*');
       }); 
+      it("Comparar el codigo adivina  para saber si es toro la primera posicion", () => {
+        expect(CompararToro("1234","1345")).toEqual('!');
+      });
 });
 
   
